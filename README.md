@@ -8,9 +8,10 @@ After the project is opened follow the instructions below:
 	    - python -m venv venv
 
   Once in the project terminal run the following commands
+    
     - to activate the virtual environment
     	- .venv\Scripts\activate
-    ------------------------------------------------------
+    ------------------------------------------------------   
     - create database tables and apply any changes
     	- python manage.py makemigrations
     	- python manage.py migrate 	
